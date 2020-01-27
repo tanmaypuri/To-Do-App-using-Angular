@@ -1,0 +1,14 @@
+<h1 style="text-align: center;">TO-DO LIST</h1>
+  <hr>
+  <mat-card>
+    <mat-form-field>
+      <input matInput placeholder="Enter item... " type="text"  [(ngModel)]="enteredItem">
+    </mat-form-field>
+
+    <button
+      mat-raised-button
+      color="accent"
+      (click)="onAddItem()">Add Item</button>
+  </mat-card>
+  
+    

@@ -1,0 +1,7 @@
+
+  
+  <mat-card *ngFor="let todo of todos">{{todo.item}}
+       <input type="button" value="Delete" (click)="delTask(myTask)">
+     
+</mat-card>
+<p class="infotext mat-body-1" *ngIf="todos.length<=0">No Item Added Yet! </p>
